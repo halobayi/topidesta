@@ -37,35 +37,33 @@ Untuk server pernah gw bahas di postingan [membangun server dengan aapanel](/mem
 
 ## Freedom
 
-1. https://github.com/syifarahmat/baileys.api.server
-2. https://github.com/canove/whaticket-community
-3. https://github.com/salman0ansari/whatsapp-api-nodejs
-4. https://github.com/aamdsam/wa-chat-bot (Dari Group PETIRS Telegram)
-5. https://github.com/ngekoding/whatsapp-api-tutorial
-6. https://github.com/novaariyanto/Panel-WhatsApp-Gateway
-
-## Bonus
-
-Ini bonus, service wa-unofficial yang gw implementasi di RS Persahabatan.
-
-7. https://go.topidesta.my.id/v1
-8. https://go.topidesta.my.id/v1-2 ✔️
-9. https://go.topidesta.my.id/v2 ✔️
-10. https://go.topidesta.my.id/v3 ✔️
-11. https://go.topidesta.my.id/v4
-12. https://go.topidesta.my.id/v4-2 ✔️
-13. https://go.topidesta.my.id/v5
-14. https://go.topidesta.my.id/v6
-15. https://go.topidesta.my.id/v7
-16. https://go.topidesta.my.id/v8
-17. https://go.topidesta.my.id/v9
-18. https://go.topidesta.my.id/v10 ✔️
+1. https://github.com/hallobayi/baileys-api
+2. https://github.com/hallobayi/wppconnect-server
+3. https://github.com/hallobayi/wa-gateway
+4. https://github.com/hallobayi/wwebjs-api.git
+5. https://github.com/hallobayi/wuzapi
+6. https://github.com/hallobayi/go-whatsapp-web-multidevice
 
 Ada kelebihan ada kekurangan masing masing API Restfull Whatsapp, misalkan ada yang bisa kirim sticker ada yang bisa kirim ke group saja, ada yang gak bisa kirim ke group, dan lain sebagianya, tapi secara umum semuanya bisa **kirim ke nomor whatsapp perorangan**
 
 Di group Petirs (Pengguna TI Rumah Sakit) pernah dibahas juga, tentang memanfaatkan Whatsapp API Free untuk mesin penjawab otomatis, lihat di point #4 salah satu contoh kodingannya, next mungkin gw bisa research deh, kalo ada yang mau pdf nya ini gw share ya.
 
 [Chatbot by Petirs](https://github.com/topidesta/topidesta/raw/master/content/images/chat-bot-petirs.pdf)
+
+### Update Puppeter Dependency
+
+> https://stackoverflow.com/a/65497048
+
+```bash
+sudo apt-get install chromium-browser
+sudo apt-get install gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget
+```
+
+> https://github.com/cypress-io/cypress-documentation/issues/5816
+
+```bash
+sudo apt-get install libgtk2.0-0t64 libgtk-3-0t64 libgbm-dev libnotify-dev libnss3 libxss1 libasound2t64 libxtst6 xauth xvfb
+```
 
 ### PM2
 
@@ -87,12 +85,11 @@ npm cache clean --force
 npm install
 ```
 
-
 ## UPDATE
 
 Ternyata dispanyol udah ada yang mengembangkan chatbot secara mudah difahami, cek di sini:
 
-https://github.com/codigoencasa/bot-whatsapp
+https://github.com/codigoencasa/builderbot
 
 Kurang lebih akan muncul seperti ini
 
